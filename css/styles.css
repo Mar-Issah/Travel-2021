@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@500&display=swap");
+
+:root {
+	--text-curry: #cc8523;
+}
+html,
+body {
+	font-family: "Roboto Mono", monospace;
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0;
+	max-width: 100%;
+}
+
+h2,
+figcaption {
+	color: var(--text-curry);
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	height: 100vh;
+}
+
+.country {
+	background: #f2f2f2;
+	width: 500px;
+	height: auto;
+	box-shadow: 1px 1px 2px 3px #fadc70;
+	/* padding-bottom: 2rem; */
+	padding: 0 0.5rem;
+}
+
+.img-container {
+	width: 200px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	padding-top: 5px;
+	border-radius: 1rem;
+	transition: all 1s ease;
+}
+
+img:hover {
+	transform: scale(2);
+}
+
+figcaption {
+	font-size: 0.8rem;
+}
+
+.info {
+	text-align: center;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.button-container {
+	display: flex;
+	border: none;
+	font-size: 2rem;
+	margin: auto;
+}
+
+.fas {
+	color: var(--text-curry);
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.fas:hover {
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.surprise-me {
+	color: var(--text-curry);
+	font-family: "Roboto Mono", monospace;
+	font-size: 0.8rem;
+	padding: 0 0.2rem;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	height: 40px;
+	border: 1px solid var(--text-curry);
+	border-radius: 0.5rem;
+}
+
+.surprise-me:hover {
+	font-weight: bolder;
+	cursor: pointer;
+	background: #fff;
+}
+
+.linkedin {
+	color: blue;
+}
+
+footer {
+	width: 100%;
+	background: #bdb8b1;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	padding: 0.5rem 0.5rem;
+	color: var(--text-curry);
+	font-size: 0.95rem;
+}
